@@ -3,9 +3,10 @@
 def meal_choice(veg1,veg2,protein = "meat")
   1.times do
     puts "What a nutritious meal!"
-    return "A plate of #{protein} with #{veg1} and #{veg2}."
+    puts "A plate of #{protein} with #{veg1} and #{veg2}."
+    return 1
   end
 end
 
 meal_choice("broccoli","macaroni")
-meal_choice("broccoli","macaroni","tofu")
+
