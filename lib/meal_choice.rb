@@ -7,5 +7,3 @@ def meal_choice(veg1,veg2,protein = "meat")
     return phrase
   end
 end
-
-meal_choice("broccoli","macaroni")
