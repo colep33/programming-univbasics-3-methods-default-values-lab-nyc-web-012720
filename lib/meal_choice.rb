@@ -2,9 +2,8 @@
 # For output purposes, use "puts" instead of "print" or "p"
 def meal_choice(veg1,veg2,protein = "meat")
   1.times do
-    puts "What a nutritious meal!"
     puts "A plate of #{protein} with #{veg1} and #{veg2}."
-    return true
+    return "What a nutritious meal!"
   end
 end
 
