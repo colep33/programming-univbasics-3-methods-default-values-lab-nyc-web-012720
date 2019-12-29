@@ -8,3 +8,4 @@ def meal_choice(veg1,veg2,protein = "meat")
     puts phrase
   end
 end
+meal_choice("macaroni","broccoli")
